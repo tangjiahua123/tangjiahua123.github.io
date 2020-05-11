@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>HQhuazai</title>
+  <title>Hexo</title>
   
   <subtitle>[object Object]</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://tangjiahua123.github.io/</id>
   
   <author>
-    <name>Sitoi</name>
+    <name>John Doe</name>
     
   </author>
   
