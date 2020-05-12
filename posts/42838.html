@@ -503,6 +503,37 @@
 <p>下划线</p>
 <p><u>带下划线的文本</u></p>
 <p>脚注<a href="浪费青春的游戏">^和平精英</a></p>
+<p>5.列表（*，+，-作为列表标记）</p>
+<p>无序列表</p>
+<ul>
+<li><p>第一项</p>
+</li>
+<li><p>第二项</p>
+</li>
+<li><p>第三项</p>
+</li>
+</ul>
+<p>有序列表（1.后加上空格即可）</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<p>列表嵌套（在子列表中加四个空格，或者按Tab键即可）</p>
+<ol>
+<li><p>第一项：</p>
+<ul>
+<li>第一项的第一个嵌套元素</li>
+<li>第一项的第二个嵌套元素</li>
+</ul>
+</li>
+<li><p>第二项：</p>
+<ul>
+<li>第二项的第一个嵌套元素</li>
+<li>第二项的第二个嵌套元素</li>
+</ul>
+</li>
+</ol>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -1160,7 +1191,7 @@ $(function () {
     
 
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1589272143267')
+  navigator.serviceWorker.register('/sw.js?t=1589272947191')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
