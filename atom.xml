@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tangjiahua123.github.io/"/>
-  <updated>2020-05-04T14:32:38.000Z</updated>
+  <updated>2020-05-12T05:41:48.297Z</updated>
   <id>https://tangjiahua123.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的Markdown学习旅程</title>
+    <link href="https://tangjiahua123.github.io/posts/6.html"/>
+    <id>https://tangjiahua123.github.io/posts/6.html</id>
+    <published>2020-05-12T05:30:00.000Z</published>
+    <updated>2020-05-12T05:41:48.297Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="我的markdown学习旅程"><a href="#我的markdown学习旅程" class="headerlink" title="我的markdown学习旅程"></a>我的markdown学习旅程</h1><h2 id="这几天海口真的是好热啊，要是下点雨就好了"><a href="#这几天海口真的是好热啊，要是下点雨就好了" class="headerlink" title="这几天海口真的是好热啊，要是下点雨就好了^-^"></a>这几天海口真的是好热啊，要是下点雨就好了^-^</h2><h3 id="此篇markdown文档是用Typora编写的。"><a href="#此篇markdown文档是用Typora编写的。" class="headerlink" title="此篇markdown文档是用Typora编写的。"></a>此篇markdown文档是用Typora编写的。</h3><h4 id="Typora界面真的是超级简洁，本人也很喜欢简约风，真的是一上手就喜欢上了！"><a href="#Typora界面真的是超级简洁，本人也很喜欢简约风，真的是一上手就喜欢上了！" class="headerlink" title="Typora界面真的是超级简洁，本人也很喜欢简约风，真的是一上手就喜欢上了！"></a>Typora界面真的是超级简洁，本人也很喜欢简约风，真的是一上手就喜欢上了！</h4><h5 id="从此篇博客开始慢慢探索markdown和Typora这两个东西"><a href="#从此篇博客开始慢慢探索markdown和Typora这两个东西" class="headerlink" title="从此篇博客开始慢慢探索markdown和Typora这两个东西"></a>从此篇博客开始慢慢探索markdown和Typora这两个东西</h5><h6 id="此处为六级标题（六级标题貌似是极限了）"><a href="#此处为六级标题（六级标题貌似是极限了）" class="headerlink" title="此处为六级标题（六级标题貌似是极限了）"></a>此处为六级标题（六级标题貌似是极限了）</h6><h5 id="段落的表示：在末尾使用两个以上的空格加换行即可。比如下面这样："><a href="#段落的表示：在末尾使用两个以上的空格加换行即可。比如下面这样：" class="headerlink" title="段落的表示：在末尾使用两个以上的空格加换行即可。比如下面这样："></a>段落的表示：在末尾使用两个以上的空格加换行即可。比如下面这样：</h5><p>这是第一段  </p><p>这是第二段  </p><h5 id="同样，你可以在段落后面用一个空行来表示一个段落"><a href="#同样，你可以在段落后面用一个空行来表示一个段落" class="headerlink" title="同样，你可以在段落后面用一个空行来表示一个段落"></a>同样，你可以在段落后面用一个空行来表示一个段落</h5><p>这是第一段</p><p>这是第二段</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;我的markdown学习旅程&quot;&gt;&lt;a href=&quot;#我的markdown学习旅程&quot; class=&quot;headerlink&quot; title=&quot;我的markdown学习旅程&quot;&gt;&lt;/a&gt;我的markdown学习旅程&lt;/h1&gt;&lt;h2 id=&quot;这几天海口真的是好热啊，要是下点雨
+      
+    
+    </summary>
+    
+    
+    
+      <category term="教程" scheme="https://tangjiahua123.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Markdown" scheme="https://tangjiahua123.github.io/tags/Markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>本博客搭建详细教程</title>
