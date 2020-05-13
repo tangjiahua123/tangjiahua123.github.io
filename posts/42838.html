@@ -641,9 +641,6 @@ a <span class="token operator">=</span> np<span class="token punctuation">.</spa
 </tbody></table>
 <p>11.高级技巧</p>
 <p><strong>支持的HTML元素</strong></p>
-<blockquote>
-<p>目前支持的HTML元素有<kbd> <b> <i> <em> <sup> <sub> <br></sub></sup></em></i></b></kbd></p><b><i><em>
-</em></i></b></blockquote><b><i><em>
 <p>使用<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑</p>
 <p><b>html</b> </p>
 <p><i>html</i></p>
@@ -752,7 +749,7 @@ Note right of C: 没人陪我玩<span aria-hidden="true" class="line-numbers-row
         功能测试                              :active, a1, after des3, 3d
         压力测试                               :after a1  , 20h
         测试报告                               : 48h<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-</em></i></b><script>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -1318,6 +1315,16 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
 <div class="progress-bar"></div>
 
+{% if theme.mermaid.enable %}
+  <script src='https://unpkg.com/mermaid@{{ theme.mermaid.version }}/dist/mermaid.min.js'></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize({{ JSON.stringify(theme.mermaid.options) }});
+    }
+  </script>
+{% endif %}
+
+
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
@@ -1409,7 +1416,7 @@ $(function () {
     
 
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1589337852848')
+  navigator.serviceWorker.register('/sw.js?t=1589338791026')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }

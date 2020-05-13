@@ -545,6 +545,16 @@
 
 <div class="progress-bar"></div>
 
+{% if theme.mermaid.enable %}
+  <script src='https://unpkg.com/mermaid@{{ theme.mermaid.version }}/dist/mermaid.min.js'></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize({{ JSON.stringify(theme.mermaid.options) }});
+    }
+  </script>
+{% endif %}
+
+
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
@@ -636,7 +646,7 @@ $(function () {
     
 
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1589337852848')
+  navigator.serviceWorker.register('/sw.js?t=1589338791026')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
