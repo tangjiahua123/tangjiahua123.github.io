@@ -672,6 +672,7 @@ A[方形] -->B(圆角)
     C -->|a=1| D[结果1]
     C -->|a=2| E[结果2]
     F[横向流程图]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>graph LR<br>A[方形] –&gt;B(圆角)<br>    B –&gt; C{条件a}<br>    C –&gt;|a=1| D[结果1]<br>    C –&gt;|a=2| E[结果2]<br>    F[横向流程图]</p>
 <p>2.竖向流程图</p>
 <pre class="line-numbers language-mermaid"><code class="language-mermaid">graph TD
 A[方形] --> B(圆角)
@@ -679,6 +680,7 @@ A[方形] --> B(圆角)
     C --> |a=1| D[结果1]
     C --> |a=2| E[结果2]
     F[竖向流程图]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>graph TD<br>A[方形] –&gt; B(圆角)<br>    B –&gt; C{条件a}<br>    C –&gt; |a=1| D[结果1]<br>    C –&gt; |a=2| E[结果2]<br>    F[竖向流程图]</p>
 <p>3.标准流程图</p>
 <pre class="line-numbers language-flow"><code class="language-flow">st=>start: 开始框
 op=>operation: 处理框
@@ -689,6 +691,7 @@ e=>end: 结束框
 st->op->cond
 cond(yes)->io->e
 cond(no)->sub1(right)->op<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>st=&gt;start: 开始框<br>op=&gt;operation: 处理框<br>cond=&gt;condition: 判断框(是或否?)<br>sub1=&gt;subroutine: 子流程<br>io=&gt;inputoutput: 输入输出框<br>e=&gt;end: 结束框<br>st-&gt;op-&gt;cond<br>cond(yes)-&gt;io-&gt;e<br>cond(no)-&gt;sub1(right)-&gt;op</p>
 <p>4.标准流程图（横向）</p>
 <pre class="line-numbers language-flow"><code class="language-flow">st=>start: 开始框
 op=>operation: 处理框
@@ -699,12 +702,14 @@ e=>end: 结束框
 st(right)->op(right)->cond
 cond(yes)->io(bottom)->e
 cond(no)->sub1(right)->op<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>st=&gt;start: 开始框<br>op=&gt;operation: 处理框<br>cond=&gt;condition: 判断框(是或否?)<br>sub1=&gt;subroutine: 子流程<br>io=&gt;inputoutput: 输入输出框<br>e=&gt;end: 结束框<br>st(right)-&gt;op(right)-&gt;cond<br>cond(yes)-&gt;io(bottom)-&gt;e<br>cond(no)-&gt;sub1(right)-&gt;op</p>
 <p>5.时序图样例</p>
 <pre class="line-numbers language-sequence"><code class="language-sequence">对象A->对象B: 对象B你好吗?（请求）
 Note right of 对象B: 对象B的描述
 Note left of 对象A: 对象A的描述(提示)
 对象B-->对象A: 我很好(响应)
 对象A->对象B: 你真的好吗？<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>对象A-&gt;对象B: 对象B你好吗?（请求）<br>Note right of 对象B: 对象B的描述<br>Note left of 对象A: 对象A的描述(提示)<br>对象B–&gt;对象A: 我很好(响应)<br>对象A-&gt;对象B: 你真的好吗？</p>
 <p>6.时序图复杂样例</p>
 <pre class="line-numbers language-sequence"><code class="language-sequence">Title: 标题：复杂使用
 对象A->对象B: 对象B你好吗?（请求）
@@ -1407,7 +1412,7 @@ $(function () {
     
 
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1589335602388')
+  navigator.serviceWorker.register('/sw.js?t=1589336694160')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
