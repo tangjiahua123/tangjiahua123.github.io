@@ -661,7 +661,13 @@ _ 下划线
 - 减号
 . 英文逗点
 ! 感叹号</code></pre><h4 id="公式"><a href="#公式" class="headerlink" title="公式"></a><strong>公式</strong></h4><p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。</p>
-<h4 id="各类流程图"><a href="#各类流程图" class="headerlink" title="各类流程图"></a>各类流程图</h4><p>1.横向流程图</p>
+<h4 id="各类流程图"><a href="#各类流程图" class="headerlink" title="各类流程图"></a>各类流程图</h4><p><code></code> <code>mermaid
+graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;</code> <code></code></p>
+<p>1.横向流程图</p>
 <pre class="mermaid">graph LR
 A[方形] --&gt;B(圆角)
     B --&gt; C{条件a}
@@ -1424,7 +1430,7 @@ $(function () {
     
 
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1589341762793')
+  navigator.serviceWorker.register('/sw.js?t=1589342226624')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
